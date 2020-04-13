@@ -15,7 +15,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 400px;
+  height: 100%;
   background: rgba(0, 0, 0, 0.7);
 } 
 
@@ -55,3 +55,25 @@
   border-top: 3px #ee4035 solid;
 }
 
+@media (max-width: 365px)
+{
+  #intro {
+    background: url(../img/mountains.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+
+  #intro a {
+    display: none;
+  }
+   
+  .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  } 
+  
+}
