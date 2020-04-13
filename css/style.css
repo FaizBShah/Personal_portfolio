@@ -1,0 +1,57 @@
+#main-nav {
+  border-bottom: 3px #ee4035 solid;
+  opacity: 0.9;
+}
+
+#intro {
+  background: url(../img/mountains.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  position: relative;
+}
+ 
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 400px;
+  background: rgba(0, 0, 0, 0.7);
+} 
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 3px #ee4035 solid;
+}
+
+.card {
+  border: 2px #ee4035 solid;
+}
+
+#skills img {
+  width: 75px;
+  margin-top: -75px;
+}
+
+.custom-star {
+  padding: 0.6rem;
+  background-color: #ee4035;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+#project .card {
+  border: 3px #ee4035 solid;
+}
+
+.info1-header {
+  /* width: 50%; */
+  margin: auto;
+  border-bottom: 3px #ffffff solid;
+}
+
+#contact {
+  border-top: 3px #ee4035 solid;
+}
+
